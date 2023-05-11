@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  header {
+    background-color: rgb(16, 40, 77);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: rgb(116, 116, 116);
+    color: #fff;
+    padding: 10px 20px;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  nav li {
+    margin: 0 10px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: rgb(116, 116, 116);
+    color: #fff;
+    padding: 20px;
+  }  
